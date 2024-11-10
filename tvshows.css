@@ -1,0 +1,58 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    background-image: linear-gradient(to right, #434343 , black);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+/*  Show Grid */
+.shows-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 80px auto;
+    max-width: 1000px;
+}
+
+.shows-item {
+    width: 180px;
+    margin: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.shows-item:hover {
+    transform: scale(1.05);
+}
+
+.shows-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.shows-info {
+    margin-top: 5px;
+}
+
+.shows-title {
+    font-weight: bold;
+    color:white;
+}
+
+.shows-year {
+    color: white;
+    font-size: 0.9em;
+}
+
+
+

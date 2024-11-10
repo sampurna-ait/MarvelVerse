@@ -1,0 +1,68 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    background-image: linear-gradient(to right, #434343 , black);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #f8f9fa;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+/* Movie Grid */
+.movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 80px auto; 
+    max-width: 1000px;
+}
+
+.movie-item {
+    width: 180px;
+    margin: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.movie-item:hover {
+    transform: scale(1.05);
+}
+
+.movie-item a {
+    text-decoration: none; 
+}
+
+.movie-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.movie-info {
+    margin-top: 5px;
+}
+
+.movie-title {
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 1rem;
+    color: whitesmoke;
+    transition: color 0.3s ease;
+}
+
+.movie-title:hover{
+    color: #e60606;
+}
+
+.movie-year {
+    color: white;
+    font-size: 0.9em;
+}
+
+
+
